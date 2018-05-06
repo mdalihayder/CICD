@@ -4,6 +4,18 @@
 
 <suite name="Suite" parallel="none">
 
+ <test name="IETest">
+
+ <parameter name="browser" value="ie" />
+
+ <classes>
+
+ <class name="JPay.TestCase" />
+
+ </classes>
+
+ </test>
+
  <test name="ChromeTest">
 
  <parameter name="browser" value="chrome" />
@@ -19,17 +31,6 @@
  <test name="FireFoxTest">
 
  <parameter name="browser" value="firefox" />
-
- <classes>
-
- <class name="JPay.TestCase" />
-
- </classes>
-
- </test>
- <test name="IETest">
-
- <parameter name="browser" value="ie" />
 
  <classes>
 
