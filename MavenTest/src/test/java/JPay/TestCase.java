@@ -1,4 +1,4 @@
-//Selenium [Eclipse> Maven> Git> Jenkins]
+//Selenium Test [Eclipse> Maven> Git> Jenkins]
 package JPay;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
