@@ -1,4 +1,4 @@
-//Selenium Test [Eclipse> Maven> Git> Jenkins]
+//Selenium WebDriver Test (Cross Browser Test)
 package JPay;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
