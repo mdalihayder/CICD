@@ -24,13 +24,15 @@ public class TestCase {
 
    @Test
   public void TestCase1() {
-	   System.out.println("TestCase1");
+	  System.out.println("Starting TestCase1");
       driver.findElement(By.xpath("//*[@id=\"newHeader_TopRightNavButton_lnkLogin\"]/div")).click(); 
       driver.findElement(By.xpath("//*[@id=\"uclLoginFirstTime_txtUserId\"]")).sendKeys("ahayder@jpay.com");  
       driver.findElement(By.xpath("//*[@id=\"uclLoginFirstTime_txtPassword\"]")).sendKeys("password"); 
       driver.findElement(By.xpath("//*[@id=\"uclLoginFirstTime_btnContinue\"]/div")).click(); 
       driver.findElement(By.xpath("//*[@id=\"myheader_TopRightNavButton_lnkLogout\"]/div")).click();
-  }
+      System.out.println("Ending TestCase1");
+   }
+        
   
   @AfterClass
   public void afterClass() throws InterruptedException {
