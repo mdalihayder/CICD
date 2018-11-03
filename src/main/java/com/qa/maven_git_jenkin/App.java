@@ -1,13 +1,13 @@
 package com.qa.maven_git_jenkin;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws InterruptedException
     {
-        System.out.println( "Hello World!" );
+    	
+    	TestCase RunClass = new TestCase();
+    	RunClass.beforeTest();
+    	RunClass.TestCase1();
+    	RunClass.afterTest();
     }
 }

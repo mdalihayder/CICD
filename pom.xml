@@ -149,7 +149,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.qa.maven_git_jenkin.TestCase</mainClass>
+							<mainClass>com.qa.maven_git_jenkin.App</mainClass>
 							<classpathPrefix>dependency-jars/</classpathPrefix>
 
 

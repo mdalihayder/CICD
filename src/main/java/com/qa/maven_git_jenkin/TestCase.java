@@ -1,4 +1,4 @@
-/*package com.qa.maven_git_jenkin;
+package com.qa.maven_git_jenkin;
 
 import java.util.concurrent.TimeUnit;
 
@@ -35,9 +35,8 @@ public class TestCase {
         
   
   @AfterClass
-  public void afterClass() throws InterruptedException {
+  public void afterTest() throws InterruptedException {
   	Thread.sleep(5000);
       driver.quit();
   }
 }
-*/
